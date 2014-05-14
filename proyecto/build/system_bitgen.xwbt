@@ -1,0 +1,7 @@
+INFILE=/home/julian/Documents/Digitalii/proyecto/build/system-routed.ncd
+OUTFILE=/home/julian/Documents/Digitalii/proyecto/build/system.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/julian/Documents/Digitalii/proyecto/build
+LICENSE=WebPack
+USER_INFO=210497463_0_0_716

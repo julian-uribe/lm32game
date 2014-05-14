@@ -1,0 +1,51 @@
+# ==== Clock inputs (CLK) ====
+NET "clk" LOC = "B8";
+NET "led" LOC = "J14";
+NET "rst" LOC = "R17";
+NET "btn" LOC = "B18";
+#NET "btn" LOC = "P17";
+
+# ==== UART ====
+#NET "uart_rxd" LOC = "U6";
+#NET "uart_txd" LOC = "P9";
+
+# ==== COLORES====
+#NET "red" LOC = "R16";
+#NET "green" LOC = "T18";
+#NET "blue" LOC = "U18";
+
+NET "red" LOC = "H13";
+NET "green" LOC = "E18";
+NET "blue" LOC = "D18";
+
+# ==== PS2====
+#NET "ps2_data" LOC = "P11";  #PIN23 -DIG21     
+#NET "ps2_clk" LOC = "R12"; #PIN25 -DIG23
+# ==== LCD====
+NET "hsync" LOC = "T4"; #PIN15 -DIG0
+NET "vsync" LOC = "U3"; #PIN13 -DIG2
+#NET "hsync" LOC = "J15"; #PIN15 -DIG0
+#NET "vsync" LOC = "K15"; #PIN13 -DIG2
+
+NET "rgbinfo<0>"  LOC = "U5"; #blue 510 ohm
+NET "rgbinfo<1>"  LOC = "N8"; #green
+NET "rgbinfo<2>"  LOC = "R9"; #blue 
+#NET "rgbinfo<0>"  LOC = "R4"; #blue 510 ohm
+#NET "rgbinfo<1>"  LOC = "F4"; #green
+#NET "rgbinfo<2>"  LOC = "P15"; #blue 
+#NET "dataLCD<3>"  LOC = "P66"; #PIN6 -DIG9
+#NET "dataLCD<4>"  LOC = "P65"; #PIN7 -DIG8
+#NET "dataLCD<5>"  LOC = "P63"; #PIN8 -DIG7
+#NET "dataLCD<6>"  LOC = "P62"; #PIN9 -DIG6
+#NET "dataLCD<7>"  LOC = "P61"; #PIN10 -DIG5
+
+#NET "SPCLK" LOC = "P48";#PIN17 -DIG15
+#NET "SPDA" LOC = "P41";#PIN19 -DIG17
+#NET "SPENB" LOC = "P36" ;#PIN21 -DIG19
+
+
+
+
+
+
+
